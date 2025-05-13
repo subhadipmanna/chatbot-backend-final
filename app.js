@@ -13,7 +13,7 @@ const port = process.env.PORT || 3001; // Must match frontend's API_URL port
 // CORS configuration for local development
 app.use(cors({
   origin: [
-    'https://amitportfolio.vercel.app', // Alternative localhost
+    'https://amitportfolioapp.vercel.app', // Alternative localhost
    
   ],
   methods: ['POST', 'GET'],
